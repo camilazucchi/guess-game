@@ -1,0 +1,6 @@
+amarelo: #ffe600;
+azul-escuro: #1c1277;
+bege: #B0A3A3;
+branco: #FFFFFF;
+vermelho: #d82222;
+preto: #000000;

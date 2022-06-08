@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>GUESS | BRQ BOOTCAMP</title>
+    <link rel="icon" type="image/png" href="/imagens/favicon pokebola.png" />
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Squada+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Press+Start+2P&family=Squada+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="fundoBranco">
+                <h1 id="titulo"> GUESS</h1>
+                <div class="box linhaVertical"></div>
+                <img id="imagem" src="/imagens/pikachu.png" alt="Ícone Pikachu">
+
+                <div class="inputsEsquerda">
+                    <form onsubmit="getText();return false">
+                        <label id="nickname">Nickname:</label>
+                        <input type="text" id="nicknameInput" value="" maxlength="6" required>
+                </div>
+
+                <div class="intervalo">
+                    <fieldset id="fieldset">
+                        <legend id="intervaloLegenda">Intervalo:</legend>
+                        <select id="opcoes">
+                            <option value="10">Opção 1: 1 a 10</option>
+                            <option value="100">Opção 2: 1 a 100</option>
+                            <option value="200">Opção 3: 1 a 200</option>
+                        </select>
+                    </fieldset>
+                </div>
+
+                <form>
+                    <div class="botaoStart">
+                        <button onlick="trocaTexto" id="startButton">START</button>
+                    </div>
+                </form>
+
+                <div class="textoDireita">
+                    <p id="mensagemOla">Oie, Fulano! Vamos jogar?<br>De acordo com a opção de intervalo escolhida,<br>descubra o
+                        número abaixo.</p>
+                </div>
+
+                <script src="/js/nickname.js"></script>
+
+                <div class="inputs-direita">
+                    <label for="numero" id="textoNumero">Digite um número:</label>
+                    <input type="number" id="numeroInput" required>
+                </div>
+                <div class="jogar">
+                    <button onclick="getNum();return false" id="botaoJogar">JOGAR</button>
+                </div>
+                <script src="/js/random.js"></script>
+                <div class="mensagemTentativa">
+                    <p id="mensagem"></p>
+                </div>
+            </div>
+        </body>
+
+</html>

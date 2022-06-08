@@ -1,0 +1,3 @@
+fonte-título: Squada One;
+fonte-inputs: Press Start 2P;
+fonte-body: Verdana;

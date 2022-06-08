@@ -1,0 +1,302 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: block;
+    width: 50%;
+    height: 320px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/imagens/background.png);
+}
+
+.linhaVertical {
+    border-left: 3px solid;
+    box-sizing: border-box;
+    color: var(--bege);
+    margin-left: auto;
+    margin-top: 5rem;
+}
+
+.fundoBranco {
+    background-color: var(--branco);
+    display: block;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 1.25rem;
+    width: 58rem;
+    height: 29.125rem;
+}
+
+#titulo {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    left: 400px;
+    top: 200px;
+    background: var(--amarelo);
+    border-radius: 20px;
+    margin: -40px;
+    margin-left: 370px;
+    margin-top: -70px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+h1 {
+    font-family: var(--squada-one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 74px;
+}
+
+#imagem {
+    display: block;
+    margin-left: 21%;
+    margin-top: -35%;
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+}
+
+.inputsEsquerda {
+    font-family: var(--press-start-2p)
+}
+
+#nickname {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#nicknameInput {
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 300px;
+    height: 25px;
+    border: 2px solid var(--bege);
+    border-radius: 5px;
+}
+
+.intervalo {
+    font-family: var(--press-start-2p);
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-top: 130px;
+    margin-left: 40px;
+}
+
+#opcoes {
+    text-align: center;
+    font-family: var(--roboto);
+    margin-top: 20px;
+    width: 310px;
+    height: 31px;
+    border: 2px solid var(--bege);
+    border-radius: 5px;
+}
+
+.botaoStart {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+#startButton {
+    background: var(--azul-escuro);
+    border: 2px solid var(--preto);
+    width: 200px;
+    height: 42px;
+    border-radius: 16px;
+    font-family: var(--press-start-2p);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--branco);
+
+}
+
+#mensagemOla {
+    position: absolute;
+    width: 454px;
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 500px;
+    margin-top: -80px;
+}
+
+.inputs-direita {
+    font-family: var(--press-start-2p);
+}
+
+#textoNumero {
+    display: flex;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 530px;
+}
+
+#numeroInput {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 525px;
+    width: 300px;
+    height: 25px;
+    border: 2px solid var(--bege);
+    border-radius: 5px;
+}
+
+.jogar {
+    float: right;
+    margin-top: 50px;
+    margin-right: 130px;
+}
+
+#botaoJogar {
+    background:var(--vermelho);
+    border: 2px solid var(--preto);
+    width: 200px;
+    height: 42px;
+    border-radius: 16px;
+    font-family: var(--press-start-2p);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--branco);
+}
+
+.mensagemTentativa {
+    position: flex;
+}
+
+#mensagem {
+    text-align: center;
+    font-family: var(--roboto);
+    font-style: bold;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 460px;
+    margin-top: 130px;
+}
+
+@media screen and (max-width: 912px) {
+    .box {
+        width: 0%;
+        height: 0%;
+    }
+
+    .fundoBranco {
+        position: flex;
+        flex-direction: center;
+        width: 270px;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+
+    #titulo {
+        display: flex;
+        margin-left: 40px;
+        margin-top: -50px;
+    }
+
+    #imagem {
+        margin-top: auto;
+        margin-left: 40%;
+    }
+
+    #nickname {
+        flex: content;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    #nicknameInput {
+        margin-left: 10px;
+        width: 250px;
+        margin-top: 60px;
+    }
+
+    .intervalo {
+        margin-left: 10px;
+        padding-top: 30px;
+    }
+
+    #opcoes {
+        width: 260px;
+    }
+
+    #startButton {
+        margin-left: -60px;
+        margin-top: 50px;
+    }
+
+    .textoDireita {
+        width: 300px;
+        height: 110px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 430px;
+    }
+
+    #mensagemOla {
+        width: 250px;
+        height: 100px;
+        margin-left: 10px;
+        margin-top: auto;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    #textoNumero {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    #numeroInput {
+        width: 250px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    #botaoJogar {
+        margin-left: 47%;
+        margin-top: 20px;
+    }
+
+    #mensagem {
+        text-align: center;
+        margin-left: -3px;
+        padding-top: 10px;
+    }
+
+}
