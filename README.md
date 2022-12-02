@@ -5,7 +5,7 @@ O projeto final do Bootcamp proposto pela empresa é de um jogo de adivinhação
 - CSS;
 - Vanilla JavaScript.
 
-![Imagem do Projeto](https://uploaddeimagens.com.br/images/004/243/763/full/guessGame.PNG?1670003865).
+![Imagem do Projeto](https://uploaddeimagens.com.br/images/004/243/763/full/guessGame.PNG?1670003865)
 
 ## Regras
 
